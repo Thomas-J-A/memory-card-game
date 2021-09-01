@@ -1,0 +1,72 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 30px;
+}
+
+#root > div {
+  display: grid;
+  grid-template-rows: 15% 79% 6%;
+  height: 100vh;
+  width: 100vw;
+}
+
+/******** Header ********/
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: cornsilk;
+}
+
+#logo {
+  height: 110px;
+}
+
+#title h1 {
+  font-size: 1.5rem;
+}
+
+#title h3 {
+  font-size: .7rem;
+}
+
+#alert {
+  margin-left: auto;
+}
+
+#scoreboard {
+  margin-left: auto;
+}
+
+#scoreboard p {
+  text-align: right;
+}
+
+/******** Main ********/
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.8rem 0;
+  background-color: bisque;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+}
+
+/******** Footer ********/
+
+footer {
+  background-color: coral;
+}
