@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from '../../images/logo1.png';
+import logo from '../../images/logo.png';
 import Title from './Title';
 import Alert from './Alert';
 import Scoreboard from './Scoreboard';
 
-const Header = ({ currentScore, highScore }) => (
+const Header = ({ currentScore, highScore, alertVisible }) => (
   <header>
     <img
       id='logo'
@@ -12,7 +12,7 @@ const Header = ({ currentScore, highScore }) => (
       alt=''
     />
     <Title />
-    <Alert />
+    <Alert alertVisible={alertVisible} />
     <Scoreboard currentScore={currentScore} highScore={highScore} />
   </header>
 );

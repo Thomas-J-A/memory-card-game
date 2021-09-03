@@ -60,13 +60,37 @@ main {
   background-color: bisque;
 }
 
+.restart-flash {
+  animation: restart-flash .5s ease-out 0s;
+}
+
 .card {
-  height: 300px;
-  width: 300px;
+  height: 290px;
+  width: 290px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+  border-radius: .25rem;
+  transition: box-shadow .2s;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .4);
+}
+
+@keyframes restart-flash {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: bisque;
+  }
 }
 
 /******** Footer ********/
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: coral;
 }
