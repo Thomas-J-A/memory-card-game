@@ -9,9 +9,9 @@ const Carousel = () => {
     setCurrSlide(currSlide === length - 1 ? 0 : currSlide + 1);
   };
 
-  // useEffect(() => {
-  //   setTimeout(goToNext, 10000);
-  // });
+  useEffect(() => {
+    setTimeout(goToNext, 10000);
+  });
 
   return (
     <div className='slide'>

@@ -4,11 +4,17 @@ const Scoreboard = ({ currentScore, highScore }) => (
   <div id='scoreboard'>
     <p>
       High Score:
-      {highScore}
+      {' '}
+      <span>
+        {highScore}
+      </span>
     </p>
     <p>
       Current Score:
-      {currentScore}
+      {' '}
+      <span>
+        {currentScore}
+      </span>
     </p>
   </div>
 );

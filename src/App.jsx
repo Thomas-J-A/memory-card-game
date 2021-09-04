@@ -26,7 +26,7 @@ const App = () => {
       setAlertVisible(true);
       timeoutId = setTimeout(() => {
         setAlertVisible(false);
-      }, 1500);
+      }, 2200);
     }
 
     return () => {
