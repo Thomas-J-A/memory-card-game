@@ -22,11 +22,13 @@ html {
 header {
   display: flex;
   align-items: center;
-  background-color: cornsilk;
+  padding: 1rem;
+  background-color: #e8e8d0;
 }
 
 #logo {
   height: 110px;
+  padding-right: .7rem;
 }
 
 #title h1 {
@@ -57,7 +59,7 @@ main {
   align-items: center;
   flex-wrap: wrap;
   padding: 1.8rem 0;
-  background-color: bisque;
+  background: linear-gradient(#e8dcd0, #cfb59d);
 }
 
 .restart-flash {
@@ -92,5 +94,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: coral;
+  background-color: #cfce9d;
 }

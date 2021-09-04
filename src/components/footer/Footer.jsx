@@ -1,8 +1,9 @@
 import React from 'react';
+import Carousel from './Carousel';
 
 const Footer = () => (
   <footer>
-    <p>Trees never die of old age. Insects, diseases and people are usually the killers.</p>
+    <Carousel />
   </footer>
 );
 
